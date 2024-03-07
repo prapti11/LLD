@@ -12,7 +12,9 @@ public class CollegeStudent extends Student{
     public void setSpecialization(String specialization) {
         this.specialization = specialization;
     }
+    public CollegeStudent(){
 
+    }
     public CollegeStudent(String aggregate, String specialization) {
         this.aggregate = aggregate;
         this.specialization = specialization;
